@@ -26,6 +26,11 @@ This program provides examples of many Java technologies such as:
 ## Notice
 
 Program generates this files (which you should delete before second usage):
+
 + "programs.dat" in the root directory - for storing serialized data about client programs information
 + "Updated \*" group of files in "programs" directory - programs that are updated
 + "data2.xml" in "serverprograms" directory - stored info about server and client programs
+
+## Requirements
+
++ *fscontext* - for JNDI (provieded in the libs folder)
